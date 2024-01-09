@@ -76,6 +76,8 @@ export const TextContainer = styled.div`
 `;
 
 export const IconContainer = styled.div`
+  width: 70px;
+  height: 70px;
   display: flex;
   background-color: white;
   border-radius: 20%;

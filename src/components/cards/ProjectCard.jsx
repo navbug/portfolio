@@ -139,11 +139,11 @@ const CodeButton = styled.div`
   }
 `;
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, image }) => {
   return (
     <Card>
       <LeftContainer>
-        <Image src={project.image} alt="project image" />
+        <Image src={image} alt="project image" />
       </LeftContainer>
       <RightContainer>
         <Title>{project.title}</Title>
