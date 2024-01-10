@@ -15,7 +15,7 @@ export const skills = [
   {title: "JavaScript", image: "https://img.icons8.com/color/48/000000/javascript.png"},
   {title: "React", image: "https://img.icons8.com/color/48/000000/react-native.png"},
   {title: "Redux", image: "https://img.icons8.com/color/48/000000/redux.png"},
-  {title: "API", image: "../assets/api.jpg"},
+  {title: "API", image: "https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg"},
   {title: "Firebase", image: "https://img.icons8.com/color/48/000000/firebase.png"},
   {title: "SASS", image: "https://img.icons8.com/color/48/000000/sass.png"},
   {title: "TailwindCSS", image: "https://img.icons8.com/color/48/000000/tailwindcss.png"},

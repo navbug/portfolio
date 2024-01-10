@@ -13,7 +13,7 @@ export const HeroContainer = styled.div`
   @media screen and (max-width: 640px) {
     padding: 32px 16px;
   }
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 51% 95%, 0 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 93%, 65% 95%, 0 100%, 0 100%);
 `;
 
 export const HeroInnerContainer = styled.div`

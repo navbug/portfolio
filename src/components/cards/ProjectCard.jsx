@@ -36,8 +36,10 @@ const Card = styled.div`
 `;
 
 const LeftContainer = styled.div`
-  flex: 1;
+  // flex: 1;
   height: 100%;
+  margin: auto;
+  width: 100%;
   max-width: 420px;
   display: flex;
   align-items: center;
