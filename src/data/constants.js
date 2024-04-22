@@ -31,6 +31,17 @@ export const skills = [
 export const projects = [
   {
     id: 0,
+    title: "Shop Kar",
+    description:
+      "A Fullstack(MERN) ecommerce website with functionalities like sorting, filtering, ADMIN dashboard, payment gateway integration, search bar, modular code structure",
+    image:
+      "https://private-user-images.githubusercontent.com/51168623/293862099-45bbf183-a0aa-4a30-8fc4-a446a5b530cc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ3OTMxNjAsIm5iZiI6MTcwNDc5Mjg2MCwicGF0aCI6Ii81MTE2ODYyMy8yOTM4NjIwOTktNDViYmYxODMtYTBhYS00YTMwLThmYzQtYTQ0NmE1YjUzMGNjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA5VDA5MzQyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThiZDlhMDBmMWU4ZGY0NmM2ZGIxZTA4MDI5Yzg0ZWFjNWVjNTVjOGFkNWE4Zjk2MzA3NTVmYjM1ZGNkMDUyMGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.YT0-7HEl9JX9GLvbMDGnyZ3obRgzee3NJKHiKJk8dSg",
+    tags: ["MERN", "TailwindCSS", "API integration", "UI", "Error Handling"],
+    codeLink: "https://github.com/navbug/e-commerce-mern-frontend",
+    liveLink: "https://e-commerce-mern-frontend-kappa.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Image Gallery",
     description:
       "A image gallery app that allows you to share your images with the world. It provides authentication feature, user friendly UI and modular file/folder structure.",
@@ -41,7 +52,7 @@ export const projects = [
     liveLink: "https://imagegallery0101.netlify.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "CryptoTracker",
     description:
       "A cryptocurrency price tracker to track prices of your favourite crypto and add it to watchlist. It also provides authentication feature.",
@@ -51,15 +62,6 @@ export const projects = [
     codeLink: "https://github.com/navbug/crypto-tracker",
     liveLink: "https://cryptotracker0101.netlify.app/",
   },
-  // {
-  //   id: 2,
-  //   title: "Movie App",
-  //   description:
-  //     "A movies app that allows you to search for movies. It has features like lazy loading, infinite scrolling, api integration, sorting & filtering, loading skeleton and modular file/folder structure.",
-  //   image:
-  //     "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  //   tags: ["React JS", "API", "UI", "Error Handling"],
-  // },
   {
     id: 3,
     title: "Shopping Cart",
@@ -71,4 +73,5 @@ export const projects = [
     codeLink: "https://github.com/navbug/cartApp",
     liveLink: "https://cartapp0101.netlify.app/",
   },
+  
 ];
