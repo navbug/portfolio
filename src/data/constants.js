@@ -40,7 +40,7 @@ export const projects = [
     liveLink: "https://e-commerce-mern-frontend-kappa.vercel.app/",
   },
   {
-    id: 0,
+    id: 1,
     title: "Tweet Kar",
     description:
       "A Fullstack(MERN) social media website to create tweets, reply & like tweets, simple & elegent UI design, modular code structure",
@@ -50,7 +50,7 @@ export const projects = [
     liveLink: "https://e-commerce-mern-frontend-kappa.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Image Gallery",
     description:
       "A image gallery app that allows you to share your images with the world. It provides authentication feature, user friendly UI and modular file/folder structure.",
@@ -61,7 +61,7 @@ export const projects = [
     liveLink: "https://imagegallery0101.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "CryptoTracker",
     description:
       "A cryptocurrency price tracker to track prices of your favourite crypto and add it to watchlist. It also provides authentication feature.",
@@ -72,7 +72,7 @@ export const projects = [
     liveLink: "https://cryptotracker0101.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Shopping Cart",
     description:
       "A shopping cart with filter and search feature. It has simple and user friendly UI.",
