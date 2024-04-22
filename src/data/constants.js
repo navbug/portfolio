@@ -33,7 +33,17 @@ export const projects = [
     id: 0,
     title: "Shop Kar",
     description:
-      "A Fullstack(MERN) ecommerce website with functionalities like sorting, filtering, ADMIN dashboard, payment gateway integration, search bar, modular code structure",
+      "A Fullstack(MERN) ecommerce website with functionalities like filtering, ADMIN dashboard, payment gateway int., search bar, modular code structure",
+    image: "https://private-user-images.githubusercontent.com/51168623/324367288-e324d1fc-a05b-44fb-9b27-9e6372a9a712.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3NzE0MzMsIm5iZiI6MTcxMzc3MTEzMywicGF0aCI6Ii81MTE2ODYyMy8zMjQzNjcyODgtZTMyNGQxZmMtYTA1Yi00NGZiLTliMjctOWU2MzcyYTlhNzEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIyVDA3MzIxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA0NjhlOWVkMDgzYTI3NjhkYzc4YjliOGJmMWIwMWQzMWQ5NzllOGI3N2NjNDNhYWY3NDYzNGI3Mzk1NmYwM2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.KfbviBB38P7jjS3znyxLbjXUztV1Jqf6jS6EB6TaCg4",  
+    tags: ["MERN", "TailwindCSS", "API", "UI", "Error Handling"],
+    codeLink: "https://github.com/navbug/e-commerce-mern-frontend",
+    liveLink: "https://e-commerce-mern-frontend-kappa.vercel.app/",
+  },
+  {
+    id: 0,
+    title: "Tweet Kar",
+    description:
+      "A Fullstack(MERN) social media website to create tweets, reply & like tweets, simple & elegent UI design, modular code structure",
     image: "https://private-user-images.githubusercontent.com/51168623/324367288-e324d1fc-a05b-44fb-9b27-9e6372a9a712.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3NzE0MzMsIm5iZiI6MTcxMzc3MTEzMywicGF0aCI6Ii81MTE2ODYyMy8zMjQzNjcyODgtZTMyNGQxZmMtYTA1Yi00NGZiLTliMjctOWU2MzcyYTlhNzEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIyVDA3MzIxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA0NjhlOWVkMDgzYTI3NjhkYzc4YjliOGJmMWIwMWQzMWQ5NzllOGI3N2NjNDNhYWY3NDYzNGI3Mzk1NmYwM2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.KfbviBB38P7jjS3znyxLbjXUztV1Jqf6jS6EB6TaCg4",  
     tags: ["MERN", "TailwindCSS", "API integration", "UI", "Error Handling"],
     codeLink: "https://github.com/navbug/e-commerce-mern-frontend",
