@@ -3,14 +3,16 @@ import React from "react";
 import ProjectCard from "../cards/ProjectCard";
 import { projects } from "../../data/constants";
 import {Container, Wrapper, Title, Desc, CardContainer} from "./styledComponent";
-import projectImage1 from "../../assets/imageGallery.png";
-import projectImage2 from "../../assets/cryptoTracker.png";
-import projectImage3 from "../../assets/shopCart.png";
+import projectImage1 from "../../assets/tweetKar.png";
+import projectImage2 from "../../assets/imageGallery.png";
+import projectImage3 from "../../assets/cryptoTracker.png";
+import projectImage4 from "../../assets/shopCart.png";
 
 const images = [
   projectImage1,
   projectImage2,
   projectImage3,
+  projectImage4,
 ]
 
 const Projects = () => {
