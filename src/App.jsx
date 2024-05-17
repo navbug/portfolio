@@ -9,8 +9,6 @@ import Projects from "./components/projects/Projects";
 import ContactForm from "./components/contactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
 import useCustomEffect from "./hooks/custom-useEffect";
-import Game from "./hooks/Game";
-import Stepper from "./hooks/Stepper";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.card_light};
@@ -77,8 +75,6 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      {/* <Game /> */}
-      <Stepper />
       <BrowserRouter>
         <Wrap>
           <Header themeToggle={themeToggler} isDarkMode={isDarkMode} />
