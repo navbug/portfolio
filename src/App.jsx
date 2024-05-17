@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from "./utils/Themes";
 import Header from "./components/header/Header";
@@ -8,6 +8,9 @@ import { BrowserRouter } from "react-router-dom";
 import Projects from "./components/projects/Projects";
 import ContactForm from "./components/contactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
+import useCustomEffect from "./hooks/custom-useEffect";
+import Game from "./hooks/Game";
+import Stepper from "./hooks/Stepper";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.card_light};
@@ -50,8 +53,32 @@ function App() {
     theme === lightTheme ? setTheme(darkTheme) : setTheme(lightTheme);
     setIsDarkMode(!isDarkMode);
   };
+
+
+  // useEffect hook
+  useEffect(() => {
+    console.log("useEffect");
+
+    //cleanup fn
+    return () => {
+      console.log("cleanup");
+    }
+  }, [theme]);
+
+  //useEffect hook polyfill
+  useCustomEffect(() => {
+    console.log("useCustomEffect");
+
+    return () => {
+      console.log("custom cleanup");
+    }
+  }, []);
+
+
   return (
     <ThemeProvider theme={theme}>
+      {/* <Game /> */}
+      <Stepper />
       <BrowserRouter>
         <Wrap>
           <Header themeToggle={themeToggler} isDarkMode={isDarkMode} />

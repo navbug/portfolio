@@ -7,7 +7,7 @@ import { CgWebsite } from "react-icons/cg";
 const Card = styled.div`
   width: 80vw;
   max-width: 1150px;
-  height: 580px; 
+  height: 580px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -144,23 +144,45 @@ const CodeButton = styled.div`
 const ProjectCard = ({ project, image }) => {
   return (
     <Card>
-      <LeftContainer>
-        <Image src={image} alt="project image" />
-      </LeftContainer>
-      <RightContainer>
-        <Title>{project.title}</Title>
-        <Tags>
-          {project.tags?.map((tag, index) => (
-            <Tag key={index}>{tag}</Tag>
-          ))}
-        </Tags>
-        <Description>{project.description.slice(0, 130).concat("...")}</Description>
+      {project && (
+        <>
+          <LeftContainer>
+            <Image src={project?.image} alt="project image" />
+          </LeftContainer>
+          <RightContainer>
+            <Title>{project.title}</Title>
+            <Tags>
+              {project.tags?.map((tag, index) => (
+                <Tag key={index}>{tag}</Tag>
+              ))}
+            </Tags>
+            <Description>
+              {project.description.slice(0, 130).concat("...")}
+            </Description>
 
-        <Buttons>
-          <CodeButton><a href={project.codeLink} target="_blank" style={{textDecoration: "none", color: "white"}}><FaCode /> Code</a></CodeButton>
-          <CodeButton><a href={project.liveLink} target="_blank" style={{textDecoration: "none", color: "white"}}><CgWebsite /> Live</a></CodeButton>
-        </Buttons>
-      </RightContainer>
+            <Buttons>
+              <CodeButton>
+                <a
+                  href={project.codeLink}
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <FaCode /> Code
+                </a>
+              </CodeButton>
+              <CodeButton>
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <CgWebsite /> Live
+                </a>
+              </CodeButton>
+            </Buttons>
+          </RightContainer>
+        </>
+      )}
     </Card>
   );
 };
