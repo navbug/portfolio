@@ -1,7 +1,7 @@
 import React from "react";
 
 import { skills } from "../../data/constants";
-import {Container, Wrapper, Title, Desc, SkillsContainer, SkillContainer, Border, IconContainer, Icon, TextContainer} from "./styledComponent";
+import {Container, Wrapper, Title, Desc, SkillsContainer, SkillContainer, IconContainer, Icon, TextContainer} from "./styledComponent";
 
 
 const Skills = () => {
@@ -17,7 +17,6 @@ const Skills = () => {
         <SkillsContainer>
           {skills.map((skill) => (
             <SkillContainer key={skill.title}>
-              <Border />
               <TextContainer>{skill.title}</TextContainer>
             </SkillContainer>
           ))}
