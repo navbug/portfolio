@@ -5,7 +5,7 @@ export const Bio = {
     "Frontend Developer",
     "ReactJS Developer",
     "JS Developer",
-    "NextJS Developer"
+    "NextJS Developer",
   ],
   description: `Check out my Github profile and LinkedIn to see my latest projects.`,
 };
