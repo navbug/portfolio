@@ -7,26 +7,24 @@ export const Bio = {
     "JS Developer",
     "NextJS Developer"
   ],
-  description: `I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.`,
+  description: `Check out my Github profile and LinkedIn to see my latest projects.`,
 };
 
 export const skills = [
-  {title: "HTML", image: "https://img.icons8.com/color/48/000000/html-5.png"},
-  {title: "CSS", image: "https://img.icons8.com/color/48/000000/css3.png"},
-  {title: "JavaScript", image: "https://img.icons8.com/color/48/000000/javascript.png"},
-  {title: "React", image: "https://img.icons8.com/color/48/000000/react-native.png"},
-  {title: "Redux", image: "https://img.icons8.com/color/48/000000/redux.png"},
-  {title: "API", image: "https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg"},
-  {title: "Firebase", image: "https://img.icons8.com/color/48/000000/firebase.png"},
-  {title: "SASS", image: "https://img.icons8.com/color/48/000000/sass.png"},
-  {title: "TailwindCSS", image: "https://img.icons8.com/color/48/000000/tailwindcss.png"},
-  {title: "Material UI", image: "https://img.icons8.com/color/48/000000/material-ui.png"},
-  {title: "Styled Components", image: "https://img.icons8.com/color/48/000000/styled-components.png"},
-  {title: "Responsive Design", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Responsive_Web_Design_Logo.svg/1024px-Responsive_Web_Design_Logo.svg.png"},
-  {title: "Github", image: "https://img.icons8.com/color/48/000000/github.png"},
-  {title: "Git", image: "https://img.icons8.com/color/48/000000/git.png"},
-  {title: "Problem Solving", image: "https://cdn-icons-png.flaticon.com/512/6487/6487594.png"},
-  {title: "DS & Algo", image: "https://w7.pngwing.com/pngs/845/407/png-transparent-computer-icons-structure-organizational-chart-organization-text-trademark-people-thumbnail.png"},
+  {title: "JavaScript" },
+  {title: "ReactJS" },
+  {title: "Redux"},
+  {title: "HTML5 & CSS3" },
+  {title: "NextJS" },
+  {title: "Generative AI"},
+  {title: "TailwindCSS" },
+  {title: "NodeJS" },
+  {title: "MERN" },
+  {title: "Git & Github"},
+  {title: "Bootstrap" },
+  {title: "Firebase" },
+  {title: "Problem Solving" },
+  {title: "DS & Algo" },
 ];
 
 export const projects = [
@@ -34,7 +32,7 @@ export const projects = [
     id: 0,
     title: "BlogAI",
     description:
-      "I'm excited to share that I've created a project called BlogAI, which enables us to generate complete blog posts using Generative AI by simply providing the topic. I used Next.js, TailwindCSS, and Anthropic Claude API to build a fast, SEO-friendly, and full-stack website.",
+      "This project generates blog posts using AI, means we can  generate complete blog posts using Generative AI by simply providing the topic. I used Next.js, TailwindCSS, and Anthropic Claude API to build a fast, SEO-friendly, and full-stack website.",
     image:
       "https://private-user-images.githubusercontent.com/51168623/331515534-42daaaba-ae9b-4f14-8649-dfe8ffb7b6a5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU5NDc2OTAsIm5iZiI6MTcxNTk0NzM5MCwicGF0aCI6Ii81MTE2ODYyMy8zMzE1MTU1MzQtNDJkYWFhYmEtYWU5Yi00ZjE0LTg2NDktZGZlOGZmYjdiNmE1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE3VDEyMDMxMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM0YjhiNDQxYjM5MzJiNzA5OTVmMGI3MjhhNmZjZmYyMDFiYmM2YmI4ODMzMDIzMTM2MzIwNzdkZGQ0OTdhOGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.nQwf5y4S-W5D1g6K2K_grC1fv-V7zOqE9TlMqkwj15w",
     tags: ["NextJS", "GenAI", "API", "FullStack", "Tailwind CSS", "ReactJS"],
@@ -54,7 +52,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Advanced Todo App",
+    title: "TodoApp",
     description:
       "It is an advanced react todo app. It uses React Redux(toolkit) for state management and Redux thunk for handling asynchronous actions, It simulates authentication using redux and also has protected routes to prevent unauthorized access.",
     image:
