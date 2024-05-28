@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import heroImage from "../../assets/heroImage.jpeg";
+import heroImage from "../../assets/heroImage.png";
 import { Bio } from "../../data/constants";
 import { FaDownload } from "react-icons/fa";
 
