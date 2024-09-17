@@ -30,6 +30,17 @@ export const skills = [
 export const projects = [
   {
     id: 0,
+    title: "CRM Project",
+    description:
+      "This is a full-stack CRM project, it includes multiple sign options(google oauth, email-password), optimized with code splitting, lazy loading and Memoization. All routes are protected and secure.",
+    image:
+      "https://private-user-images.githubusercontent.com/51168623/368093926-2eddb101-dd95-41f6-9610-af593db54d16.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY1NjM3MjIsIm5iZiI6MTcyNjU2MzQyMiwicGF0aCI6Ii81MTE2ODYyMy8zNjgwOTM5MjYtMmVkZGIxMDEtZGQ5NS00MWY2LTk2MTAtYWY1OTNkYjU0ZDE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTE3VDA4NTcwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRhYjYzYzFkYTU4Y2NlNmVlOTZlNjRlZTFjMWFkMWNiYTAzOWRkYzI2YmI0MzZmMjY2YTk1NTNmN2YwYzI2MWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.iYgKEPfd92_4VUeF-lGmn41K2MtXLEAxVIEDIJ2BLAY",
+    tags: ["ReactJS", "Optimization", "FullStack", "Tailwind CSS", "Modular Scalable"],
+    codeLink: "https://github.com/navbug/The-CRM-App",
+    liveLink: "https://the-crm-app.vercel.app/",
+  },
+  {
+    id: 1,
     title: "BlogAI",
     description:
       "This project generates blog posts using AI, means we can  generate complete blog posts using Generative AI by simply providing the topic. I used Next.js, TailwindCSS, and Anthropic Claude API to build a fast, SEO-friendly, and full-stack website.",
@@ -40,7 +51,7 @@ export const projects = [
     liveLink: "https://blog-ai-azure.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Shop Kar",
     description:
       "Fullstack MERN E-Commerce project with payment gateway integration and admin panel. Used Redux for state management and it also has product filtering, sorting and search functionality. All routes are protected.",
@@ -49,16 +60,5 @@ export const projects = [
     tags: ["React JS", "MongoDB", "MERN", "Tailwind CSS", "Redux", "JWT"],
     codeLink: "https://github.com/navbug/e-commerce-mern-frontend",
     liveLink: "https://e-commerce-mern-frontend-kappa.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "TodoApp",
-    description:
-      "It is an advanced react todo app. It uses React Redux(toolkit) for state management and Redux thunk for handling asynchronous actions, It simulates authentication using redux and also has protected routes to prevent unauthorized access.",
-    image:
-      "https://private-user-images.githubusercontent.com/51168623/328096735-f9a1e224-ccd6-448e-9d9c-9e65348ef6f2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU5NDgzNzksIm5iZiI6MTcxNTk0ODA3OSwicGF0aCI6Ii81MTE2ODYyMy8zMjgwOTY3MzUtZjlhMWUyMjQtY2NkNi00NDhlLTlkOWMtOWU2NTM0OGVmNmYyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE3VDEyMTQzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZhYmRjOGE4ZDBkOTEwMzMwZmZkOTlkMWMzZTQyM2VhN2VkY2ZjYjNmNDc5NzU4OTc1Mzk2ZmY2MzljNWY3N2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.N36XvloOWRK13E4DTH7IqicQdsH4N7wzU2p5cpUiIqI",
-    tags: ["React JS", "GenAI", "Redux", "Redux-Thunk",  "UI"],
-    codeLink: "https://github.com/navbug/advanced-react-todo-app",
-    liveLink: "https://advanced-react-todo-app.vercel.app/",
-  },
+  }
 ];
