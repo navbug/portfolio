@@ -4,7 +4,7 @@ import heroImage from "../../assets/heroImage.png";
 import { Bio } from "../../data/constants";
 import { FaDownload } from "react-icons/fa";
 
-import ResumeFile from "../../assets/nav-resume.pdf";
+import ResumeFile from "../../assets/naveen_resume.pdf";
 import { HeroContainer, HeroInnerContainer, HeroLeftContainer, HeroRightContainer, TextLoop, Title, TitleName, Span, SubTitle, ResumeButton, Image } from "./styledComponent"
 
 const HeroSection = () => {

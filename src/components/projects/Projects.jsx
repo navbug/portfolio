@@ -3,9 +3,9 @@ import React from "react";
 import ProjectCard from "../cards/ProjectCard";
 import { projects } from "../../data/constants";
 import {Container, Wrapper, Title, Desc, CardContainer} from "./styledComponent";
-import projectImage1 from "../../assets/blogAI.png";
-import projectImage2 from "../../assets/shopKar.png";
-import projectImage3 from "../../assets/todoApp.png";
+import projectImage1 from "../../assets/crm.png";
+import projectImage2 from "../../assets/blogAI.png";
+import projectImage3 from "../../assets/shopKar.png";
 
 const images = [
   projectImage1,
